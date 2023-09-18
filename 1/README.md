@@ -14,10 +14,10 @@
 
 ## Формат ввода
 В первой строке содержатся 6 целых чисел *year<sub>1</sub>*, *month<sub>1</sub>*, *day<sub>1</sub>*, *hour<sub>1</sub>*, *min<sub>1</sub>*, *sec<sub>1</sub>*
-(1 ≤ *year<sub>1</sub>* ≤ 9999, 1 ≤ *month<sub>1</sub>* ≤ 12, 1 ≤ *day<sub>1</sub>* ≤ 31, 0 ≤ *hour<sub>1</sub>* ≤ 23, 0 ≤ *min<sub>1</sub>* ≤ 59,0 ≤ *sec<sub>1</sub>* ≤ 59)
-- дата начала существования ящеров.
-Во второй строке содержатся 6 целых чисел *year<sub>2</sub>*, *month<sub>2</sub>*, *day<sub>2</sub>*, *hour<sub>2</sub>*, *<sub>2</sub>*, *sec<sub>2</sub>*
+(1 ≤ *year<sub>1</sub>* ≤ 9999, 1 ≤ *month<sub>1</sub>* ≤ 12, 1 ≤ *day<sub>1</sub>* ≤ 31, 0 ≤ *hour<sub>1</sub>* ≤ 23, 0 ≤ *min<sub>1</sub>* ≤ 59,0 ≤ *sec<sub>1</sub>* ≤ 59) - дата начала существования ящеров.
+Во второй строке содержатся 6 целых чисел *year<sub>2</sub>*, *month<sub>2</sub>*, *day<sub>2</sub>*, *hour<sub>2</sub>*, *min<sub>2</sub>*, *sec<sub>2</sub>*
 (1 ≤ *year<sub>2</sub>* ≤ 9999, 1 ≤ *month<sub>2</sub>* ≤ 12, 1 ≤ *day<sub>2</sub>* ≤ 31, 0 ≤ *hour<sub>2</sub>* ≤ 23, 0 ≤ *min<sub>2</sub>* ≤ 59, 0 ≤ *sec<sub>2</sub>* ≤ 59)- дата окончания существования ящеров.
+
 Гарантируется, что дата начала меньше,чем дата конца.
 
 ## Формат вывода
