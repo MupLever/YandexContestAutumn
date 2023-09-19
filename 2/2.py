@@ -1,4 +1,4 @@
-def push(deck, number, card) -> int:
+def push(deck: dict, number: str, card: str) -> int:
     if card not in deck:
         deck[card] = [0, 0]
     diff = abs(deck[card][0] - deck[card][1])
@@ -7,7 +7,7 @@ def push(deck, number, card) -> int:
         return 1
     return -1
 
-def pop(deck, number, card):
+def pop(deck: dict, number: str, card: str) -> int:
     diff = abs(deck[card][0] - deck[card][1])
     deck[card][number] -= 1
     if abs(deck[card][0] - deck[card][1]) > diff:
